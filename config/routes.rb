@@ -7,7 +7,11 @@ RailsPersonal4511::Application.routes.draw do
 
   get '/contact', to: 'contact#index'
 
+  resources :blogpost
 
+  resources :designs
+
+  resources :code
 
   root 'blog#index'
 
