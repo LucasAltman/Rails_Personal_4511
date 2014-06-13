@@ -5,8 +5,7 @@ RailsPersonal4511::Application.routes.draw do
 
   get '/code', to: 'code#index'
 
-  get '/contact' to: 'contact#index'
-
+  get '/contact', to: 'contact#index'
 
 
 
